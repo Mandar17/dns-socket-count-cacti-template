@@ -11,7 +11,7 @@ Package:cacti-0.8.8b-7.el6.noarch<br>
 $ cat snmpd.conf.add >> /etc/snmp/snmpd.conf<br>
 <br>
 -- check example<br>
-$ cat /etc/snmp/snmpd.conf|grep dns-socket<br>
+$ cat /etc/snmp/snmpd.conf|grep dns-socket-count<br>
 extend .1.3.6.1.4.1.18689.0.6 dns-socket-count /usr/local/bin/dns-socket-count<br>
 <br>
 -- copy dns-socket-count<br>
