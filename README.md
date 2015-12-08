@@ -22,4 +22,22 @@ $ chmod 755 /usr/local/bin/dns-socket-count<br>
 $ /usr/local/bin/dns-socket-count<br>
 outputsocket:13<br>
 <br>
+-- change config<br>
+$ vi /usr/local/bin/dns-socket-count<br>
+#!/bin/bash<br>
+##############################################################<br>
+#BIND<br>
+#PID=`cat /var/run/named.pid`<br>
+<br>
+#UNBOUND<br>
+#PID=`cat /var/run/unbound/unbound.pid`<br>
+<br>
+#PowerDNS Recursor<br>
+#PID=`cat /var/run/pdns_recursor.pid`<br>
+<br>
+#DNSDIST<br>
+PID=`cat /var/run/dnsdist.pid`<br>
+##############################################################<br>
+<br>
+
 ## Notes
