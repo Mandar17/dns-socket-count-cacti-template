@@ -8,4 +8,4 @@ PID=`cat /var/run/named.pid`
 
 COUNT=`ls -al /proc/${PID}/fd/|grep socket|wc -l`
 
-echo "output-socket:${COUNT}"
+echo "outputsocket:${COUNT}"
