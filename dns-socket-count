@@ -1,10 +1,17 @@
 #!/bin/bash
+##############################################################
 #BIND
-PID=`cat /var/run/named.pid`
+#PID=`cat /var/run/named.pid`
+
 #UNBOUND
 #PID=`cat /var/run/unbound/unbound.pid`
+
 #PowerDNS Recursor
 #PID=`cat /var/run/pdns_recursor.pid`
+
+#DNSDIST
+PID=`cat /var/run/dnsdist.pid`
+##############################################################
 
 COUNT=`ls -al /proc/${PID}/fd/|grep socket|wc -l`
 
