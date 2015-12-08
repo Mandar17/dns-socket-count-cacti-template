@@ -41,3 +41,5 @@ PID=`cat /var/run/dnsdist.pid`<br>
 ##############################################################<br>
 </td></tr></table>
 ## Notes
+プロセスが開いているsocket数をカウントしてみる。<br>
+ls -al /proc/${PID}/fd|grep socket|wc -l　でカウント<br>
