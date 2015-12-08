@@ -26,19 +26,19 @@ outputsocket:13<br>
 $ vi /usr/local/bin/dns-socket-count<br>
 <br>
 <table width="800"><tr><td>
-`#!/bin/bash`<br>
-`##############################################################`<br>
-`#BIND`<br>
-`#PID=`cat /var/run/named.pid``<br>
+#!/bin/bash<br>
+##############################################################<br>
+#BIND<br>
+#PID=`cat /var/run/named.pid`<br>
 <br>
-`#UNBOUND`<br>
-`#PID=`cat /var/run/unbound/unbound.pid``<br>
+#UNBOUND<br>
+#PID=`cat /var/run/unbound/unbound.pid`<br>
 <br>
-`#PowerDNS Recursor`<br>
-`#PID=`cat /var/run/pdns_recursor.pid``<br>
+#PowerDNS Recursor<br>
+#PID=`cat /var/run/pdns_recursor.pid`<br>
 <br>
-`#DNSDIST`<br>
-`PID=`cat /var/run/dnsdist.pid``<br>
-`##############################################################`<br>
+#DNSDIST<br>
+PID=`cat /var/run/dnsdist.pid`<br>
+##############################################################<br>
 </td></tr></table>
 ## Notes
