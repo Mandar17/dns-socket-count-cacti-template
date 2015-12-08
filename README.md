@@ -26,9 +26,9 @@ outputsocket:13<br>
 $ vi /usr/local/bin/dns-socket-count<br>
 <br>
 `#!/bin/bash`
-'##############################################################'
-#BIND<br>
-#PID=`cat /var/run/named.pid`<br>
+`##############################################################`
+`#BIND`
+`#PID=`cat /var/run/named.pid``
 <br>
 #UNBOUND<br>
 #PID=`cat /var/run/unbound/unbound.pid`<br>
