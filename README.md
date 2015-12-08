@@ -25,7 +25,7 @@ outputsocket:13<br>
 -- change config<br>
 $ vi /usr/local/bin/dns-socket-count<br>
 <br>
-<table><tr><td>
+<table width="800"><tr><td>
 `#!/bin/bash`<br>
 `##############################################################`<br>
 `#BIND`<br>
