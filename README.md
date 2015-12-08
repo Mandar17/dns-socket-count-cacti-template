@@ -25,6 +25,7 @@ outputsocket:13<br>
 -- change config<br>
 $ vi /usr/local/bin/dns-socket-count<br>
 <br>
+<table><tr><td>
 `#!/bin/bash`<br>
 `##############################################################`<br>
 `#BIND`<br>
@@ -39,5 +40,5 @@ $ vi /usr/local/bin/dns-socket-count<br>
 `#DNSDIST`<br>
 `PID=`cat /var/run/dnsdist.pid``<br>
 `##############################################################`<br>
-<br>
+</td></tr></table>
 ## Notes
