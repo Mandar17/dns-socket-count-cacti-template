@@ -15,4 +15,4 @@ PID=`cat /var/run/dnsdist.pid`
 
 COUNT=`ls -al /proc/${PID}/fd/|grep socket|wc -l`
 
-echo "outputsocket:${COUNT}"
+echo "socketcount:${COUNT}"
