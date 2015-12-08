@@ -22,7 +22,7 @@ $ chmod 755 /usr/local/bin/dns-socket-count<br>
 $ /usr/local/bin/dns-socket-count<br>
 outputsocket:13<br>
 <br>
--- change config<br>
+## change config<br>
 $ vi /usr/local/bin/dns-socket-count<br>
 <table width="800"><tr><td>
 #!/bin/bash<br>
