@@ -1,0 +1,11 @@
+#!/bin/bash
+#BIND
+PID=`cat /var/run/named.pid`
+#UNBOUND
+#PID=`cat /var/run/unbound/unbound.pid`
+#PowerDNS Recursor
+#PID=`cat /var/run/pdns_recursor.pid`
+
+COUNT=`ls -al /proc/${PID}/fd/|grep socket|wc -l`
+
+echo "output-socket:${COUNT}"
