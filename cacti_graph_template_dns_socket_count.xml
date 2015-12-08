@@ -1,9 +1,9 @@
 <cacti>	
-	<hash_000024e0683a969b5760d67875de09af5d82cc>
-		<name>DNS Socket Count</name>
+	<hash_000024f95343fe11d7fa71f9a3379769ccbe1f>
+		<name>DNS Output Socket</name>
 		<graph>
 			<t_title></t_title>
-			<title>|host_description| - DNS Socket Count</title>
+			<title>|host_description| - DNS Output Socket</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
 			<t_height></t_height>
@@ -40,21 +40,21 @@
 			<vertical_label></vertical_label>
 		</graph>
 		<items>
-			<hash_1000248c18d076e28be9c55113a8e900eb2581>
-				<task_item_id>hash_0800248a4151198d35f1a84cb999d7b86d0630</task_item_id>
-				<color_id>DE0056</color_id>
+			<hash_1000247b9d84a9d8db7af0ade6dae3985a3a7c>
+				<task_item_id>hash_0800247e99534c076c158b0421ad0e69ece753</task_item_id>
+				<color_id>FFD660</color_id>
 				<alpha>FF</alpha>
-				<graph_type_id>6</graph_type_id>
+				<graph_type_id>4</graph_type_id>
 				<consolidation_function_id>1</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<value></value>
 				<gprint_id>hash_060024e9c43831e54eca8069317a2ce8c6f751</gprint_id>
-				<text_format>Output Socket Count</text_format>
+				<text_format>TCP</text_format>
 				<hard_return></hard_return>
 				<sequence>1</sequence>
-			</hash_1000248c18d076e28be9c55113a8e900eb2581>
-			<hash_100024c5930c0e949d403ecc58f05e162814b9>
-				<task_item_id>hash_0800248a4151198d35f1a84cb999d7b86d0630</task_item_id>
+			</hash_1000247b9d84a9d8db7af0ade6dae3985a3a7c>
+			<hash_1000240735b3cc76bfe4398abff7e4467d3e86>
+				<task_item_id>hash_0800247e99534c076c158b0421ad0e69ece753</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<graph_type_id>9</graph_type_id>
@@ -65,9 +65,9 @@
 				<text_format>Cur:</text_format>
 				<hard_return></hard_return>
 				<sequence>2</sequence>
-			</hash_100024c5930c0e949d403ecc58f05e162814b9>
-			<hash_100024e68362803d826d880153aff95b7a89c8>
-				<task_item_id>hash_0800248a4151198d35f1a84cb999d7b86d0630</task_item_id>
+			</hash_1000240735b3cc76bfe4398abff7e4467d3e86>
+			<hash_100024b0e1669dd08a2127989bbbd8c871bb92>
+				<task_item_id>hash_0800247e99534c076c158b0421ad0e69ece753</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<graph_type_id>9</graph_type_id>
@@ -78,9 +78,9 @@
 				<text_format>Ave:</text_format>
 				<hard_return></hard_return>
 				<sequence>3</sequence>
-			</hash_100024e68362803d826d880153aff95b7a89c8>
-			<hash_100024926dfb686f17250f7afa6c318f79802a>
-				<task_item_id>hash_0800248a4151198d35f1a84cb999d7b86d0630</task_item_id>
+			</hash_100024b0e1669dd08a2127989bbbd8c871bb92>
+			<hash_100024190d49562dfcdea0e17ca1565c5d6f5f>
+				<task_item_id>hash_0800247e99534c076c158b0421ad0e69ece753</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<graph_type_id>9</graph_type_id>
@@ -91,23 +91,81 @@
 				<text_format>Max:</text_format>
 				<hard_return>on</hard_return>
 				<sequence>4</sequence>
-			</hash_100024926dfb686f17250f7afa6c318f79802a>
+			</hash_100024190d49562dfcdea0e17ca1565c5d6f5f>
+			<hash_100024c94b7d508f87577a3ccc4a7aa1c8a349>
+				<task_item_id>hash_0800249ea78c83f704e881b25c183a18fce1d7</task_item_id>
+				<color_id>FF4105</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>4</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060024e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>UDP</text_format>
+				<hard_return></hard_return>
+				<sequence>5</sequence>
+			</hash_100024c94b7d508f87577a3ccc4a7aa1c8a349>
+			<hash_100024705b211aa520b9762fb2b2efc20e9fd1>
+				<task_item_id>hash_0800249ea78c83f704e881b25c183a18fce1d7</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>4</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060024e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Cur:</text_format>
+				<hard_return></hard_return>
+				<sequence>6</sequence>
+			</hash_100024705b211aa520b9762fb2b2efc20e9fd1>
+			<hash_1000248340fd61637979b2bef9d6be8bb8198c>
+				<task_item_id>hash_0800249ea78c83f704e881b25c183a18fce1d7</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060024e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Ave:</text_format>
+				<hard_return></hard_return>
+				<sequence>7</sequence>
+			</hash_1000248340fd61637979b2bef9d6be8bb8198c>
+			<hash_10002490fa62875da448dcfb9844abe3ffe95b>
+				<task_item_id>hash_0800249ea78c83f704e881b25c183a18fce1d7</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060024e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Max:</text_format>
+				<hard_return>on</hard_return>
+				<sequence>8</sequence>
+			</hash_10002490fa62875da448dcfb9844abe3ffe95b>
 		</items>
 		<inputs>
-			<hash_090024524bc89edbbae6f3ac8bc477f48ac40f>
-				<name>Data Source [outputsocket]</name>
+			<hash_09002454694552c6f6b5920824e7e4503b9f08>
+				<name>Data Source [outputtcpsocket]</name>
 				<description></description>
 				<column_name>task_item_id</column_name>
-				<items>hash_0000248c18d076e28be9c55113a8e900eb2581|hash_000024c5930c0e949d403ecc58f05e162814b9|hash_000024e68362803d826d880153aff95b7a89c8|hash_000024926dfb686f17250f7afa6c318f79802a</items>
-			</hash_090024524bc89edbbae6f3ac8bc477f48ac40f>
+				<items>hash_0000247b9d84a9d8db7af0ade6dae3985a3a7c|hash_0000240735b3cc76bfe4398abff7e4467d3e86|hash_000024b0e1669dd08a2127989bbbd8c871bb92|hash_000024190d49562dfcdea0e17ca1565c5d6f5f</items>
+			</hash_09002454694552c6f6b5920824e7e4503b9f08>
+			<hash_090024ec5fcaeaf975e665ba23f1fd32cfd515>
+				<name>Data Source [outputudpsocket]</name>
+				<description></description>
+				<column_name>task_item_id</column_name>
+				<items>hash_000024c94b7d508f87577a3ccc4a7aa1c8a349|hash_000024705b211aa520b9762fb2b2efc20e9fd1|hash_0000248340fd61637979b2bef9d6be8bb8198c|hash_00002490fa62875da448dcfb9844abe3ffe95b</items>
+			</hash_090024ec5fcaeaf975e665ba23f1fd32cfd515>
 		</inputs>
-	</hash_000024e0683a969b5760d67875de09af5d82cc>
-	<hash_010024e676524375245e3708a7701663506ecf>
-		<name>DNS Socket Count</name>
+	</hash_000024f95343fe11d7fa71f9a3379769ccbe1f>
+	<hash_01002446dc381c9ab5526b9bab39145ccd9d8e>
+		<name>DNS Output Socket</name>
 		<ds>
 			<t_name></t_name>
-			<name>|host_description| - DNS Socket Count</name>
-			<data_input_id>hash_0300247110d832d253a5541544588d262b4081</data_input_id>
+			<name>|host_description| - DNS Output Socket</name>
+			<data_input_id>hash_0300241ffa16a502d1c01d087a9c0894bbc0e7</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
 			<rrd_step>300</rrd_step>
@@ -116,9 +174,9 @@
 			<rra_items>hash_150024c21df5178e5c955013591239eb0afd46|hash_1500240d9c0af8b8acdc7807943937b3208e29|hash_1500246fc2d038fb42950138b0ce3e9874cc60|hash_150024e36f3adb9f152adfa5dc50fd2b23337e|hash_150024283ea2bf1634d92ce081ec82a634f513</rra_items>
 		</ds>
 		<items>
-			<hash_0800248a4151198d35f1a84cb999d7b86d0630>
+			<hash_0800249ea78c83f704e881b25c183a18fce1d7>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>outputsocket</data_source_name>
+				<data_source_name>outputudpsocket</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -128,33 +186,47 @@
 				<t_rrd_heartbeat></t_rrd_heartbeat>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_070024b7296881c99dd0a9ede3bef0d483302e</data_input_field_id>
-			</hash_0800248a4151198d35f1a84cb999d7b86d0630>
+				<data_input_field_id>hash_0700244cdc850c1cb5d5e642c79b7c3722cc47</data_input_field_id>
+			</hash_0800249ea78c83f704e881b25c183a18fce1d7>
+			<hash_0800247e99534c076c158b0421ad0e69ece753>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>outputtcpsocket</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>100</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>1</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_070024450769686bfbcb2bb8ddb951d3d98304</data_input_field_id>
+			</hash_0800247e99534c076c158b0421ad0e69ece753>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700247554f9a94b1055c7c3b643e024caf3fc</data_input_field_id>
+				<data_input_field_id>hash_0700243e7dafb7a4692253d3a5d8a772517161</data_input_field_id>
 				<t_value>on</t_value>
-				<value>.1.3.6.1.4.1.18689.0.6.4.1.2.16.100.110.115.45.115.111.99.107.101.116.45.99.111.117.110.116.1</value>
+				<value>.1.3.6.1.4.1.18689.0.5.4.1.2.10.100.110.115.45.115.111.99.107.101.116.1</value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_070024f171d7ca88c8e4cf9ce324d012194f8a</data_input_field_id>
+				<data_input_field_id>hash_0700248116718427fb878f575c98ea93932146</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
-				<data_input_field_id>hash_07002483024f47528793d289e9c5f7c4841423</data_input_field_id>
+				<data_input_field_id>hash_0700247865d80ac5249ef6f16de6589b0e8b2b</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_002>
 		</data>
-	</hash_010024e676524375245e3708a7701663506ecf>
-	<hash_0300247110d832d253a5541544588d262b4081>
-		<name>DNS Socket Count</name>
+	</hash_01002446dc381c9ab5526b9bab39145ccd9d8e>
+	<hash_0300241ffa16a502d1c01d087a9c0894bbc0e7>
+		<name>DNS Output Socket</name>
 		<type_id>1</type_id>
 		<input_string>/usr/bin/snmpget -v2c -Ovqa -c &lt;snmp_community&gt; &lt;hostname&gt; &lt;oid&gt;</input_string>
 		<fields>
-			<hash_070024f171d7ca88c8e4cf9ce324d012194f8a>
+			<hash_0700247865d80ac5249ef6f16de6589b0e8b2b>
 				<name>snmp community</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -162,8 +234,8 @@
 				<type_code>snmp_community</type_code>
 				<input_output>in</input_output>
 				<data_name>snmp_community</data_name>
-			</hash_070024f171d7ca88c8e4cf9ce324d012194f8a>
-			<hash_07002483024f47528793d289e9c5f7c4841423>
+			</hash_0700247865d80ac5249ef6f16de6589b0e8b2b>
+			<hash_0700248116718427fb878f575c98ea93932146>
 				<name>hostname</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -171,8 +243,8 @@
 				<type_code>hostname</type_code>
 				<input_output>in</input_output>
 				<data_name>hostname</data_name>
-			</hash_07002483024f47528793d289e9c5f7c4841423>
-			<hash_0700247554f9a94b1055c7c3b643e024caf3fc>
+			</hash_0700248116718427fb878f575c98ea93932146>
+			<hash_0700243e7dafb7a4692253d3a5d8a772517161>
 				<name>oid</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -180,18 +252,27 @@
 				<type_code></type_code>
 				<input_output>in</input_output>
 				<data_name>oid</data_name>
-			</hash_0700247554f9a94b1055c7c3b643e024caf3fc>
-			<hash_070024b7296881c99dd0a9ede3bef0d483302e>
-				<name>socketcount</name>
+			</hash_0700243e7dafb7a4692253d3a5d8a772517161>
+			<hash_0700244cdc850c1cb5d5e642c79b7c3722cc47>
+				<name>outputudpsocket</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
 				<type_code></type_code>
 				<input_output>out</input_output>
-				<data_name>socketcount</data_name>
-			</hash_070024b7296881c99dd0a9ede3bef0d483302e>
+				<data_name>outputudpsocket</data_name>
+			</hash_0700244cdc850c1cb5d5e642c79b7c3722cc47>
+			<hash_070024450769686bfbcb2bb8ddb951d3d98304>
+				<name>outputtcpsocket</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>outputtcpsocket</data_name>
+			</hash_070024450769686bfbcb2bb8ddb951d3d98304>
 		</fields>
-	</hash_0300247110d832d253a5541544588d262b4081>
+	</hash_0300241ffa16a502d1c01d087a9c0894bbc0e7>
 	<hash_150024c21df5178e5c955013591239eb0afd46>
 		<name>Daily (5 Minute Average)</name>
 		<x_files_factor>0.5</x_files_factor>
