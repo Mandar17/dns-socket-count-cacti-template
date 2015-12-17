@@ -5,6 +5,9 @@
 ## Requirement<br>
 OS:CentOS6<br>
 Package:cacti-0.8.8b-7.el6.noarch<br>
+net-snmp-5.5-54.el6_7.1.x86_64<br>
+net-snmp-libs-5.5-54.el6_7.1.x86_64<br>
+net-snmp-utils-5.5-54.el6_7.1.x86_64<br>
 <br>
 ## Install<br>
 -- edit snmpd.conf<br>
